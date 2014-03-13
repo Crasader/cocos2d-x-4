@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <plists>
+        <plist>hit.plist</plist>
+    </plists>
+    <animations>
+        <animation>
+            <name>hit</name>
+            <delay>0.1</delay>
+            <flipX>false</flipX>
+            <flipY>false</flipY>
+            <spriteFrame>0.png</spriteFrame>
+            <spriteFrame>1.png</spriteFrame>
+            <spriteFrame>2.png</spriteFrame>
+            <spriteFrame>3.png</spriteFrame>
+            <spriteFrame>4.png</spriteFrame>
+            <spriteFrame>5.png</spriteFrame>
+        </animation>
+    </animations>
+</root>

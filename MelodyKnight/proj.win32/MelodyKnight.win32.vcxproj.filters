@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{f84e9419-4ba4-4a8c-ac6e-c38fb7b6e7c6}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{ec7ff115-828e-43ad-9fe6-b2b2d2c20916}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{bb8f1edf-baee-4435-ae56-f6f38ac3343d}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;jpg;jpeg;jpe;png;manifest</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\MelodyKnight.ico">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\ball.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\pad.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\role.png">
+      <Filter>resource</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MelodyKnight.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SneakyButton.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SneakyButtonSkinnedBase.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SneakyJoystick.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SneakyJoystickSkinnedBase.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="MmainScene.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AnimatePacker.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Singleton.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Utils.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Menemy.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="MSkill1Layer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillManager.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="MISkillLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="MItem.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="MSkill2Layer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="MActor.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="MEffect.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="MSkill.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="MSkillTarget.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="MRole.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="MDamagerInfo.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="MWorldMapScene.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="MToast.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="MskillSelectLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="XmlParser.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="MEquipSelectLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="MSectionSelectLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="MGameMenu.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SneakyButton.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SneakyButtonSkinnedBase.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SneakyJoystick.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SneakyJoystickSkinnedBase.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="MmainScene.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AnimatePacker.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Utils.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Menemy.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="MSkill1Layer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillManager.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="MISkillLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="MItem.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="MSkill2Layer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="MActor.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="MEffect.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="MSkill.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="MSkillTarget.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="MRole.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="MDamagerInfo.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="MWorldMapScene.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="MToast.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="MskillSelectLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="XmlParser.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="MEquipSelectLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="MSectionSelectLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="MGameMenu.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Resources\role.plist">
+      <Filter>resource</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\Resources\role_walk.xml">
+      <Filter>resource</Filter>
+    </Xml>
+  </ItemGroup>
+</Project>
