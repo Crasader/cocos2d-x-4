@@ -1,0 +1,11 @@
+<resources>
+  <string name="name">杰拉尔</string>
+  <string name="headIcon">head/head0.png</string>
+  <string name="enemyType">0</string>
+  <string name="skillIds">1</string>
+  <string name="searchArea">2</string>
+  <string name="moveArea">1</string>
+  <string name="maxLife">100</string>
+  <string name="attick">10</string>
+  <string name="defense">3</string>
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+  <string name="fight_emeny_count">人</string>
+  <string name="fight_round_count">波</string>
+  <string name="menu_start">开始游戏</string>
+  <string name="menu_intro">游戏介绍</string>
+  <string name="menu_exit">退出游戏</string>
+</resources>

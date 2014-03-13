@@ -1,0 +1,10 @@
+<resources>
+  <string name="maxHp">200</string>
+  <string name="rate">3</string>
+  <string name="attackPoint">10</string>
+  <string name="defPoint">10</string>
+  <string name="searchDis">500</string>
+  <string name="hitDistanceX">50</string>
+  <string name="hitDistanceY">50</string>
+  <string name="isRadomAttack">1</string>
+</resources>

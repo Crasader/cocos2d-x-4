@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <plists>
+        <plist>gate.plist</plist>
+    </plists>
+    <animations>
+        <animation>
+            <name>gate</name>
+            <delay>0.1</delay>
+            <flipX>false</flipX>
+            <flipY>false</flipY>
+            <spriteFrame>精选技能光效 (16)0001.png</spriteFrame>
+            <spriteFrame>精选技能光效 (16)0002.png</spriteFrame>
+            <spriteFrame>精选技能光效 (16)0003.png</spriteFrame>
+            <spriteFrame>精选技能光效 (16)0004.png</spriteFrame>
+            <spriteFrame>精选技能光效 (16)0005.png</spriteFrame>
+            <spriteFrame>精选技能光效 (16)0006.png</spriteFrame>
+        </animation>
+    </animations>
+</root>

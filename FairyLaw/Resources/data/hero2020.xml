@@ -1,0 +1,11 @@
+<resources>
+  <string name="name">白银之翼骑士</string>
+  <string name="headIcon">head/head7.png</string>
+  <string name="enemyType">0</string>
+  <string name="skillIds">0</string>
+  <string name="searchArea">2</string>
+  <string name="moveArea">1</string>
+  <string name="maxLife">30</string>
+  <string name="attick">3</string>
+  <string name="defense">1</string>
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+  <string name="name">圣剑技-月轮</string>
+  <string name="decript">骑士王亚瑟的剑技，如月轮舞动般旋转的斩击，将周身敌人击破</string>
+  <string name="buffeId">-1</string>
+  <string name="attact">5</string>
+  <string name="tagetType">0</string>
+  <string name="skillArea">-1|0|1|0|0|1|0|-1|1|1|1|-1|-1|1|-1|-1</string>
+  <string name="skillIcon">icon/skill18.png</string>
+</resources>

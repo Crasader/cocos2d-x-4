@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{265fe59b-4d47-4666-be18-7c5f9b7f3d0a}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
+    </Filter>
+    <Filter Include="source\layer">
+      <UniqueIdentifier>{3327f1c6-cc37-4a46-a338-51ce7bd22cad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\scene">
+      <UniqueIdentifier>{113efcef-5828-41a7-95ac-a705e221ca37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\manager">
+      <UniqueIdentifier>{4fd5da24-cc9b-4840-aa56-576f441edc19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\common">
+      <UniqueIdentifier>{f040ac03-cee0-448c-94b6-1b5dcb79aa34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\compent">
+      <UniqueIdentifier>{64854308-4a9f-4b30-b8cf-543812bce10d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{067d7a3f-704e-4250-9c1f-141c085f4062}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+    <Filter Include="include\layer">
+      <UniqueIdentifier>{1b86c06b-4526-41c7-8daf-bc9fa426f75d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\manager">
+      <UniqueIdentifier>{540b7cd4-9a8f-4186-a256-2ab019597a9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\scene">
+      <UniqueIdentifier>{8e83df94-0242-4d30-9073-ac2eb0419214}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\compent">
+      <UniqueIdentifier>{39b8deee-966d-455b-a4ca-a4389029a626}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\common">
+      <UniqueIdentifier>{e451db6d-6b1b-479d-83ca-9bf502e951d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{19848e24-aa1e-4a03-914c-4793da77e34b}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;jpg;jpeg;jpe;png;manifest</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FairyArea.cpp">
+      <Filter>source\layer</Filter>
+    </ClCompile>
+    <ClCompile Include="FairyControlPanel.cpp">
+      <Filter>source\layer</Filter>
+    </ClCompile>
+    <ClCompile Include="FairyMap.cpp">
+      <Filter>source\layer</Filter>
+    </ClCompile>
+    <ClCompile Include="FairyTitlePanel.cpp">
+      <Filter>source\layer</Filter>
+    </ClCompile>
+    <ClCompile Include="FairyChat.cpp">
+      <Filter>source\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="FairyMain.cpp">
+      <Filter>source\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="FairyMenu.cpp">
+      <Filter>source\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="FairyTitle.cpp">
+      <Filter>source\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>source\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="FairyHeroManager.cpp">
+      <Filter>source\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AnimatePacker.cpp">
+      <Filter>source\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>source\common</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>source\common</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>source\common</Filter>
+    </ClCompile>
+    <ClCompile Include="XmlParser.cpp">
+      <Filter>source\common</Filter>
+    </ClCompile>
+    <ClCompile Include="FairyEnemy.cpp">
+      <Filter>source\compent</Filter>
+    </ClCompile>
+    <ClCompile Include="FairyHero.cpp">
+      <Filter>source\compent</Filter>
+    </ClCompile>
+    <ClCompile Include="FairySkill.cpp">
+      <Filter>source\compent</Filter>
+    </ClCompile>
+    <ClCompile Include="saberSkill.cpp">
+      <Filter>source\compent</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FairyArea.h">
+      <Filter>include\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="FairyControlPanel.h">
+      <Filter>include\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="FairyMap.h">
+      <Filter>include\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="FairyTitlePanel.h">
+      <Filter>include\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="FairyHeroManager.h">
+      <Filter>include\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="FairyChat.h">
+      <Filter>include\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="FairyMain.h">
+      <Filter>include\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="FairyMenu.h">
+      <Filter>include\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="FairyTitle.h">
+      <Filter>include\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>include\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="FairyEnemy.h">
+      <Filter>include\compent</Filter>
+    </ClInclude>
+    <ClInclude Include="FairyHero.h">
+      <Filter>include\compent</Filter>
+    </ClInclude>
+    <ClInclude Include="FairySkill.h">
+      <Filter>include\compent</Filter>
+    </ClInclude>
+    <ClInclude Include="saberSkill.h">
+      <Filter>include\compent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AnimatePacker.h">
+      <Filter>include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="FairyRes.h">
+      <Filter>include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Singleton.h">
+      <Filter>include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="XmlParser.h">
+      <Filter>include\common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\FairyLaw.ico">
+      <Filter>resource</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FairyLaw.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

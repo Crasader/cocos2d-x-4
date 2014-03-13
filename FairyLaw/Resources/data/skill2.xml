@@ -1,0 +1,9 @@
+<resources>
+  <string name="name">圣剑技-星坠</string>
+  <string name="decript">骑士王亚瑟的剑技，如天星陨落般于敌人上空降下飞剑，给予敌人沉重打击</string>
+  <string name="buffeId">-1</string>
+  <string name="attact">5</string>
+  <string name="tagetType">0</string>
+  <string name="skillArea">-1|0|1|0|0|1|0|-1|1|1|1|-1|-1|1|-1|-1</string>
+  <string name="skillIcon">icon/skill18.png</string>
+</resources>

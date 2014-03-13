@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <plists>
+        <plist>flag.plist</plist>
+    </plists>
+    <animations>
+        <animation>
+            <name>flag</name>
+            <delay>0.2</delay>
+            <flipX>false</flipX>
+            <flipY>false</flipY>
+            <spriteFrame>flag0.png</spriteFrame>
+            <spriteFrame>flag1.png</spriteFrame>
+        </animation>
+    </animations>
+</root>

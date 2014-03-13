@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <plists>
+        <plist>boomA.plist</plist>
+    </plists>
+    <animations>
+        <animation>
+            <name>boomA</name>
+            <delay>0.05</delay>
+            <flipX>false</flipX>
+            <flipY>false</flipY>
+            <spriteFrame>boomA1.png</spriteFrame>
+            <spriteFrame>boomA2.png</spriteFrame>
+            <spriteFrame>boomA3.png</spriteFrame>
+            <spriteFrame>boomA4.png</spriteFrame>
+            <spriteFrame>boomA5.png</spriteFrame>
+            <spriteFrame>boomA6.png</spriteFrame>
+            <spriteFrame>boomA7.png</spriteFrame>
+            <spriteFrame>boomA8.png</spriteFrame>
+            <spriteFrame>boomA9.png</spriteFrame>
+            <spriteFrame>boomA10.png</spriteFrame>
+            <spriteFrame>boomA11.png</spriteFrame>
+            <spriteFrame>boomA12.png</spriteFrame>
+            <spriteFrame>boomA13.png</spriteFrame>
+            <spriteFrame>boomA14.png</spriteFrame>
+            <spriteFrame>boomA15.png</spriteFrame>
+            <spriteFrame>boomA16.png</spriteFrame>
+        </animation>
+    </animations>
+</root>

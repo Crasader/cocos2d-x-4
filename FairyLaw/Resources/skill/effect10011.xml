@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <plists>
+        <plist>effect.plist</plist>
+    </plists>
+    <animations>
+        <animation>
+            <name>effect10011</name>
+            <delay>0.1</delay>
+            <flipX>false</flipX>
+            <flipY>false</flipY>
+            <spriteFrame>output_10_01.png</spriteFrame>
+            <spriteFrame>output_10_02.png</spriteFrame>
+            <spriteFrame>output_10_03.png</spriteFrame>
+            <spriteFrame>output_10_04.png</spriteFrame>
+            <spriteFrame>output_10_05.png</spriteFrame>
+            <spriteFrame>output_10_06.png</spriteFrame>
+            <spriteFrame>output_10_07.png</spriteFrame>
+            <spriteFrame>output_10_08.png</spriteFrame>
+            <spriteFrame>output_10_09.png</spriteFrame>
+            <spriteFrame>output_10_10.png</spriteFrame>
+            <spriteFrame>output_10_11.png</spriteFrame>
+            <spriteFrame>output_10_12.png</spriteFrame>
+            <spriteFrame>output_10_13.png</spriteFrame>
+        </animation>
+    </animations>
+</root>

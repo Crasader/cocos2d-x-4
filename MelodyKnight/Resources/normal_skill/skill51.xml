@@ -1,0 +1,9 @@
+<resources>
+  <string name="id">10051</string>
+  <string name="name">食人花蕊</string>
+  <string name="mp">0</string>
+  <string name="time">3</string>
+  <string name="updateTime">1</string>
+  <string name="distance">500</string>
+  <string name="skillIcon">icon/skill1.png</string>
+</resources>

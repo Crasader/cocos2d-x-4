@@ -1,0 +1,9 @@
+<resources>
+  <string name="id">10001</string>
+  <string name="name">冰峰屏障</string>
+  <string name="mp">20</string>
+  <string name="time">3</string>
+  <string name="updateTime">1</string>
+  <string name="distance">500</string>
+  <string name="skillIcon">icon/skill1.png</string>
+</resources>

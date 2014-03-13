@@ -1,0 +1,9 @@
+<resources>
+  <string name="name">圣剑技-流光</string>
+  <string name="decript">骑士王亚瑟的剑技，如流星划过般闪耀的突刺，瞬间贯穿敌人</string>
+  <string name="buffeId">-1</string>
+  <string name="attact">5</string>
+  <string name="tagetType">0</string>
+  <string name="skillArea">-1|1|0|1|1|1|-1|2|0|2|1|2</string>
+  <string name="skillIcon">icon/skill18.png</string>
+</resources>

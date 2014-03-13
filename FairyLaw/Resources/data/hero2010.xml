@@ -1,0 +1,12 @@
+<resources>
+  <string name="name">弗里德</string>
+  <string name="headIcon">head/head10.png</string>
+  <string name="enemyType">0</string>
+  <string name="skillIds">2</string>
+  <string name="level">0</string>
+  <string name="searchArea">2</string>
+  <string name="moveArea">1</string>
+  <string name="maxLife">100</string>
+  <string name="attick">5</string>
+  <string name="defense">3</string>
+</resources>
