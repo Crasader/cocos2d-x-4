@@ -1,9 +1,0 @@
-<resources>
-  <string name="id">10011</string>
-  <string name="name">灵魂契约</string>
-  <string name="mp">20</string>
-  <string name="skillIcon">icon/skill11.png</string>
-  <string name="time">3</string>
-  <string name="updateTime">1</string>
-  <string name="distance">500</string>
-</resources>

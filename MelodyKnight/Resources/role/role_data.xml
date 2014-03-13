@@ -1,6 +1,0 @@
-<resources>
-  <string name="maxHp">200</string>
-  <string name="maxMp">100</string>
-  <string name="attackPoint">20</string>
-  <string name="defPoint">20</string>
-</resources>
