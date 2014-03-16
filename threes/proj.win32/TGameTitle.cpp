@@ -45,6 +45,10 @@ bool TGameTitle::init()
         this->addChild(back, 0);
 		logo->setPosition(ccp(size.width/2 - 140, size.height/2 + 100));
         this->addChild(logo, 0);
+		CCSprite* text = CCSprite::create("game_text.png");
+		this->addChild(text, 0);
+		text->setPosition(ccp(size.width/2, 120));
+		text->setScale(1.5f);
         bRet = true;
     } while (0);
 
@@ -69,7 +73,15 @@ void TGameTitle::ccTouchesBegan(CCSet *pTouches, CCEvent *pEvent){
 void TGameTitle::ccTouchesMoved(CCSet *pTouches, CCEvent *pEvent){
 	CCPoint endPoint = ((CCTouch *)pTouches->anyObject())->getLocation();
 	if(endPoint.x - startPoint.x > 50){
-		CCScene *pScene = TMainGame::scene();
+		bool isOld =  CCUserDefault::sharedUserDefault()->getBoolForKey("isOld");
+		CCScene *pScene;
+		if(isOld){
+			pScene = TMainGame::scene();
+		}else{
+			pScene = TGameHelp::scene();
+			CCUserDefault::sharedUserDefault()->setBoolForKey("isOld", true);
+			CCUserDefault::sharedUserDefault()->flush();
+		}
 		CCTransitionCrossFade *transitionScene = CCTransitionCrossFade::create(0.5f, pScene);
 		CCDirector::sharedDirector()->replaceScene(transitionScene);
 	}

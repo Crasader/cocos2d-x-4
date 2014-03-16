@@ -4,6 +4,7 @@
 #include "cocos2d.h"
 #include "TGameManager.h"
 #include "TGameTitle.h"
+#include "TGameHelp.h"
 #include "SimpleAudioEngine.h"
 
 class TMainGame : public cocos2d::CCLayer

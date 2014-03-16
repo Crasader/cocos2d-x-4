@@ -53,17 +53,29 @@ bool TMainGame::init()
 
 void TMainGame::initMenu(){
 	CCMenu* gameMenu = CCMenu::create();
-	CCMenuItemImage* musicItem = CCMenuItemImage::create("music_button.png", "music_button.png", this, menu_selector(TMainGame::menuCallback));
+	CCMenuItemImage* musicItem = CCMenuItemImage::create("music_button.png", "music_button_select.png", this, menu_selector(TMainGame::menuCallback));
 	musicItem->setTag(0);
-	musicItem->setScale(2.0f);
+	musicItem->setScale(1.5f);
 	gameMenu->addChild(musicItem);
-	musicItem->setPosition(-50, 200);
+	musicItem->setPosition(-50, 220);
 
-	CCMenuItemImage* startItem = CCMenuItemImage::create("start_button.png", "start_button.png", this, menu_selector(TMainGame::menuCallback));
+	CCMenuItemImage* startItem = CCMenuItemImage::create("start_button.png", "start_button_select.png", this, menu_selector(TMainGame::menuCallback));
 	startItem->setTag(1);
-	startItem->setScale(2.0f);
+	startItem->setScale(1.5f);
 	gameMenu->addChild(startItem);
-	startItem->setPosition(-50, 80);
+	startItem->setPosition(-50, 120);
+
+	CCMenuItemImage* helpItem = CCMenuItemImage::create("help_button.png", "help_button_select.png", this, menu_selector(TMainGame::menuCallback));
+	helpItem->setTag(2);
+	helpItem->setScale(1.5f);
+	gameMenu->addChild(helpItem);
+	helpItem->setPosition(-200, 220);
+
+	CCMenuItemImage* returnItem = CCMenuItemImage::create("return_button.png", "return_button_select.png", this, menu_selector(TMainGame::menuCallback));
+	returnItem->setTag(3);
+	returnItem->setScale(1.5f);
+	gameMenu->addChild(returnItem);
+	returnItem->setPosition(-200, 120);
 
 	this->addChild(gameMenu,0,0);
 	gameMenu->setPosition(size.width - 50, size.height - 300);
@@ -93,6 +105,7 @@ void TMainGame::initTable(){
 	curPoint->setString(string);
 	if(TGameManager::sharedGameManager()->isOver()){
 		CCUserDefault::sharedUserDefault()->setIntegerForKey("bestCount", max(TGameManager::point, bestCount));
+		CCUserDefault::sharedUserDefault()->flush();
 		TGameTitle::type = 1;
 		CCScene *pScene = TGameTitle::scene();
 		CCTransitionCrossFade *transitionScene = CCTransitionCrossFade::create(0.5f, pScene);
@@ -144,7 +157,10 @@ CCSprite* TMainGame::getColor(int i){
 void TMainGame::onEnter(){
 	CCLayer::onEnter();
 	CCDirector::sharedDirector()->getTouchDispatcher()->addStandardDelegate(this,1);
-	SimpleAudioEngine::sharedEngine()->playBackgroundMusic("bgm.mp3",true);
+	bool isStopPlay  = CCUserDefault::sharedUserDefault()->getBoolForKey("isStopPlay");
+	if(!isStopPlay){
+		SimpleAudioEngine::sharedEngine()->playBackgroundMusic("bgm.mp3",true);
+	}
 	this->schedule(schedule_selector(TMainGame::updateGame), 0.05f);
 }
 
@@ -248,12 +264,18 @@ void TMainGame::ccTouchesEnded(CCSet *pTouches, CCEvent *pEvent){
 void TMainGame::menuCallback(CCObject* pSender)
 {
 	int tag = static_cast<CCMenuItemImage*>(pSender)->getTag();
+	CCTransitionCrossFade *transitionScene;
+	CCScene *pScene;
 	switch(tag){
 	case 0:
 		if(SimpleAudioEngine::sharedEngine()->isBackgroundMusicPlaying()){
 			SimpleAudioEngine::sharedEngine()->stopBackgroundMusic();
+			CCUserDefault::sharedUserDefault()->setBoolForKey("isStopPlay", true);
+			CCUserDefault::sharedUserDefault()->flush();
 		}else{
 			SimpleAudioEngine::sharedEngine()->playBackgroundMusic("bgm.mp3");
+			CCUserDefault::sharedUserDefault()->setBoolForKey("isStopPlay", false);
+			CCUserDefault::sharedUserDefault()->flush();
 		}
 		break;
 	case 1:
@@ -266,6 +288,17 @@ void TMainGame::menuCallback(CCObject* pSender)
 		char string[6];
 		sprintf(string, "%d", bestCount);
 		bestPoint->setString(string);
+		break;
+	case 2:
+		pScene = TGameHelp::scene();
+		transitionScene = CCTransitionCrossFade::create(0.5f, pScene);
+		CCDirector::sharedDirector()->replaceScene(transitionScene);
+		break;
+	case 3:
+		TGameTitle::type = 0;
+		pScene = TGameTitle::scene();
+		transitionScene = CCTransitionCrossFade::create(0.5f, pScene);
+		CCDirector::sharedDirector()->replaceScene(transitionScene);
 		break;
 	}
 }

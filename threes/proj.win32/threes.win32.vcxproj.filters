@@ -55,6 +55,9 @@
     <ClInclude Include="TGameTitle.h">
       <Filter>include</Filter>
     </ClInclude>
+    <ClInclude Include="TGameHelp.h">
+      <Filter>include</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -73,6 +76,9 @@
       <Filter>source</Filter>
     </ClCompile>
     <ClCompile Include="TGameTitle.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="TGameHelp.cpp">
       <Filter>source</Filter>
     </ClCompile>
   </ItemGroup>

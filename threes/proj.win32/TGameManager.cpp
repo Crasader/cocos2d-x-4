@@ -49,7 +49,7 @@ bool TGameManager::isOver(){
 		}
 	}
 	for(int i = 0; i < 4; i++){
-		for(int j = 0; j < 4; j++){
+		for(int j = 0; j < 3; j++){
 			if(isMove(GameData[i][j],GameData[i][j + 1])){
 				return false;
 			}
@@ -218,24 +218,22 @@ int TGameManager::getRandomNum(){
 		return 1;
 	}else if(type <= 0.8){
 		return 2;
-	}else if(type <= 0.9){
-		return 3;
 	}else if(type <= 0.96){
-		return 6;
+		return 3;
 	}else if(type <= 0.98){
-		return 12;
+		return 6;
 	}else if(type <= 0.99){
-		return 24;
+		return 12;
 	}else{
-		return 48;
+		return 24;
 	}
 }
 
 int TGameManager::getStartRandomNum(){
 	float type =rand()/(RAND_MAX+1.0);
-	if(type <= 0.5){
+	if(type <= 0.6){
 		return 0;
-	}else if(type <= 0.7){
+	}else if(type <= 0.75){
 		return 1;
 	}else if(type <= 0.9){
 		return 2;

@@ -4,6 +4,7 @@
 
 #include "cocos2d.h"
 #include "TMainGame.h"
+#include "TGameHelp.h"
 
 class TGameTitle : public cocos2d::CCLayer
 {

@@ -131,6 +131,7 @@
     <ClInclude Include="..\Classes\HelloWorldScene.h" />
     <ClInclude Include="main.h" />
     <ClInclude Include="resource.h" />
+    <ClInclude Include="TGameHelp.h" />
     <ClInclude Include="TGameManager.h" />
     <ClInclude Include="TGameTitle.h" />
     <ClInclude Include="TMainGame.h" />
@@ -139,6 +140,7 @@
     <ClCompile Include="..\Classes\AppDelegate.cpp" />
     <ClCompile Include="..\Classes\HelloWorldScene.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="TGameHelp.cpp" />
     <ClCompile Include="TGameManager.cpp" />
     <ClCompile Include="TGameTitle.cpp" />
     <ClCompile Include="TMainGame.cpp" />
